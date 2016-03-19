@@ -1,0 +1,13 @@
+".text.xml":
+  "PhoneGap: Platform":
+    prefix: "gap:platform"
+    body: "<gap:platform name=\"${1:ios|android|webos|symbian|blackberry|winphone}\" />"
+  "PhoneGap: Plugin":
+    prefix: "gap:plugin"
+    body: "<gap:plugin name=\"${1:cordova-plugin-}${2:camera}\" source=\"${3:npm}\" />"
+  "PhoneGap: Splash":
+    prefix: "gap:splash"
+    body: "<gap:splash src=\"${1:splash.png}\" />"
+  "PhoneGap: Config File":
+    prefix: "gap:config-file"
+    body: "<gap:config-file platform=\"${1:ios|android|webos|symbian|blackberry|winphone}\" parent=\"${2:manifest}\" mode=\"${3:merge}\">\n\t$4\n</gap:config-file>"
