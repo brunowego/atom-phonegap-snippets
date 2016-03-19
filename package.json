@@ -1,7 +1,7 @@
 {
   "name": "phonegap-snippets",
   "main": "./lib/phonegap-snippets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A collection of PhoneGap snippets for Atom Editor.",
   "keywords": [
     "javascript",
